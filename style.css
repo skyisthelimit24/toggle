@@ -1,6 +1,8 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: Montserrat;
+  box-sizing: border-box;
 }
 
 .sidebar {
@@ -55,7 +57,7 @@
 }
 
 .main {
-  height: 100vh;
+  height: 100%;
   background: #d0e7a9;
   border-radius: 8px;
   transition: 0.3s ease-in-out;
